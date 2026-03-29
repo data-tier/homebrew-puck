@@ -1,28 +1,28 @@
 class PuckAgent < Formula
   desc "Privacy-first network intelligence agent"
   homepage "https://puck.data-tier.com"
-  version "1.1.0"
+  version "1.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/data-tier/homebrew-puck/releases/download/v#{version}/puck-agent-darwin-arm64"
-      sha256 "3af6a60ef1194e0cca4334fe300bbb0447bd87d299337de8ed6fce7b37b6ce17"
+      sha256 "ffa882b0e5cfbb3883d4b7fce2d7f4ebb55d2515ea4fb7e2da9c0dc13b074f31"
     end
     on_intel do
       url "https://github.com/data-tier/homebrew-puck/releases/download/v#{version}/puck-agent-darwin-amd64"
-      sha256 "50e2cee61ebed0b0749e9ca1cab60a3d1944ff3484d2871b47ab1191ade89778"
+      sha256 "f99a1850fe8b8fe0378a77771244c285e8e264d6bfc6a23d39361d9edbd7fda1"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/data-tier/homebrew-puck/releases/download/v#{version}/puck-agent-linux-arm64"
-      sha256 "11430857e6d579ade788bc94bd461f0ec86f78cf17662a2015959126e9fe5644"
+      sha256 "75f53f3978582efedcff34aa1f4faf4c54c21ece76e6ed374a04e5e938614d0f"
     end
     on_intel do
       url "https://github.com/data-tier/homebrew-puck/releases/download/v#{version}/puck-agent-linux-amd64"
-      sha256 "c7329ef089431b3fab402ecb2f30860ca56646190c398cd2f9565a8ea7653e72"
+      sha256 "a360d4a8e496938065881061664e8bf24ca4fd33c048eac45d7e03011d48ad27"
     end
   end
 
